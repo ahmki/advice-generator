@@ -12,6 +12,9 @@ module.exports = {
       lightcyan: '#cee3e9',
       neongreen: '#52ffa8'
     },
+    fontFamily: {
+      'manrope': ['Manrope', 'sans-serif'],
+    },
   },
   plugins: [],
 }
