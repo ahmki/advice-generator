@@ -17,6 +17,8 @@ function App() {
       // Gets a new ID in case API has empty advice
       .catch(err => setAdviceIndex(getRandomId))
   }
+  
+  handleResize()
 
   const handleResize = () => {
     if (window.innerWidth < 650) {
