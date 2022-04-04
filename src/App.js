@@ -17,8 +17,6 @@ function App() {
       // Gets a new ID in case API has empty advice
       .catch(err => setAdviceIndex(getRandomId))
   }
-  
-  handleResize()
 
   const handleResize = () => {
     if (window.innerWidth < 650) {
@@ -35,6 +33,7 @@ function App() {
   })
 
   useEffect(() => {
+    handleResize()
     if (adviceIndex === 0) {
       setAdviceIndex(getRandomId)
     }
