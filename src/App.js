@@ -67,7 +67,7 @@ function App() {
     <div className="flex min-h-screen justify-center items-center">
       <div className="relative grid container place-items-center rounded-xl mx-auto bg-darkgrayishblue w-[347px] sm:w-[500px] h-auto ">
         <p className="font-manrope text-neongreen text-center pt-7">Advice #{adviceIndex}</p>
-        <p className="font-manrope text-2xl text-lightcyan px-7 py-7 text-center max-w-md">"{advice}"</p>
+        <p className="font-manrope text-2xl text-lightcyan px-7 py-7 text-center max-w-md">"test{advice}"</p>
         {dividerDecider()}
         <div className="relative group">
           {/* Equal size <div> under the button for a glow effect on hover*/}
